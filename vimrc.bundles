@@ -1,0 +1,60 @@
+" Don't edit this file - edit .vimrc.bundles.local!
+
+" General
+" ---------
+
+Bundle 'gmarik/vundle'
+
+" Fuzzy-find
+Bundle 'kien/ctrlp.vim'
+
+" File drawer/sidebar
+Bundle 'scrooloose/nerdtree'
+
+" Autocomplete
+"Bundle 'Valloric/YouCompleteMe'
+
+" Git integration
+Bundle 'tpope/vim-fugitive'
+
+" Status bar, similar to Powerline
+Bundle 'bling/vim-airline'
+
+" Project-specific configuration
+Bundle 'embear/vim-localvimrc'
+
+" Linting (requires installing linters separately, i.e. pip install pep8 or npm install -g jshint)
+" Currently using my fork for jsxhint support
+Bundle 'thomasboyt/syntastic'
+
+" Searching. Uses silver searcher if installed (see .vimrc)
+Bundle 'mileszs/ack.vim'
+
+" Fuzzy finding. Uses silver searcher if installed
+Bundle 'kien/ctrlp.vim'
+
+" Move seamlessly between tmux & other panes with ctrl+[hjkl]
+Bundle 'christoomey/vim-tmux-navigator'
+
+" Themes
+Bundle 'altercation/vim-colors-solarized'
+
+" Inline git status
+Bundle 'airblade/vim-gitgutter'
+
+" Makes indentation blocks into text objects (basically required for Python)
+Bundle 'austintaylor/vim-indentobject'
+
+" Text snippets (use Ctrl+J to complete)
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+
+" Syntax/language
+Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'groenewege/vim-less'
+Bundle 'nono/vim-handlebars'
+
+" vim-javascript comes with better indentation (yay!) but uglier syntax
+" highlighting (boo), so we use a custom fork
+Bundle 'pangloss/vim-javascript'
