@@ -1,4 +1,4 @@
-Venmo standard dotfiles.
+Grailed standard dotfiles.
 
 Currently included configs:
 
